@@ -5,8 +5,8 @@
     "allowed": "*",
     "content": {
       "properties": {
-        "bullet": {
-          "$ref": "app: itgloberspartnercl.bullets-diagramation#/definitions/BulletGroup"
+        "bullets": {
+          "$ref": "app:itgloberspartnercl.bullets-diagramation#/definitions/BulletGroup"
         }
       }
     }

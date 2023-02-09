@@ -4,8 +4,9 @@
       "type": "array",
       "title": "Bullets Group",
       "items": {
-        "image": {
-          "$ref": "app: vtex.native-types#/definitions/url",
+        "properties": {
+          "image": {
+          "$ref": "app:vtex.native-types#/definitions/url",
           "default": "",
           "title": "Imagen",
           "widget": {
@@ -14,13 +15,14 @@
         },
         "titleBullet": {
           "title": "Título de Bullet",
-           "$ref": "app: vtex.native-types#/definitions/text",
+           "$ref": "app:vtex.native-types#/definitions/text",
            "default": ""
         },
         "link": {
           "title": "Link de Bullet",
-           "$ref": "app: vtex.native-types#/definitions/text",
+           "$ref": "app:vtex.native-types#/definitions/link",
            "default": ""
+        }
         }
       }
     }
