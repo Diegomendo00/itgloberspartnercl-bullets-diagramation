@@ -11,6 +11,7 @@ export const getBulletsAsTSXList = (
     key={index}
     src={bullet.image}
     titleBullet={bullet.titleBullet}
+    titleProduct={bullet.titleProduct}
     link={
       bullet.link
       ?

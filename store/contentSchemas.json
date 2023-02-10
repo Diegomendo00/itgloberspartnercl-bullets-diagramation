@@ -18,6 +18,11 @@
            "$ref": "app:vtex.native-types#/definitions/text",
            "default": ""
         },
+        "titleProduct": {
+          "title": "Título de Bullet",
+           "$ref": "app:vtex.native-types#/definitions/text",
+           "default": ""
+        },
         "link": {
           "title": "Link de Bullet",
            "$ref": "app:vtex.native-types#/definitions/link",
